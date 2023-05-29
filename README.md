@@ -6,3 +6,6 @@ jupyter notebook
 
 Git报错：fatal: unable to access OpenSSL SSL_read: Connection was reset, errno 10054
 git config --global http.sslVerify "false"
+
+fatal: unable to access ‘https://XXX: Failed onnect to github. com port 443: Timed out
+git config --global --unset http.proxy
