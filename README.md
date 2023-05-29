@@ -4,6 +4,9 @@
 jupyter notebook
 本地ssh -L 8888:Localhost:8888 liuqingyun@124.16.151.179 -p 22203
 
+
+git config --global -l
+
 Git报错：fatal: unable to access OpenSSL SSL_read: Connection was reset, errno 10054
 git config --global http.sslVerify false
 
