@@ -12,3 +12,7 @@ git config --global http.sslVerify false
 
 fatal: unable to access ‘https://XXX: Failed onnect to github. com port 443: Timed out
 git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+git config --global http.proxy http://127.0.0.1:10809
+git config --global https.proxy http://127.0.0.1:10809
